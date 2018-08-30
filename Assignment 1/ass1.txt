@@ -1,0 +1,20 @@
+The program reads the file word by word. 
+Everytime a word is read it is then pre-processed for comparing
+Using a binary search that checks if the word exists, 
+If the word already exists in the pool the word struct count is incremented
+Otherwise, the word is added to the word pool and its start position and length is recorded
+Using a binary search tree method, every word struct is added to a binary search tree method
+if the count is higher then the struct word is put at the right position 
+if the count is lower then the struct word is put on the left position
+if the count is equal then the struct word is compared alphabetically
+Now that the word structs are in order print the top 10 and the bottom 10;
+
+Data structures
+-Variables
+-Arrays
+-Compact string storage
+-Binary search tree
+
+Algorithms
+-Binary search
+-Insertion sort
